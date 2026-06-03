@@ -25,7 +25,7 @@ form.addEventListener("submit", async (event) => {
 
     const result = await response.json();
     console.log(result, "usuário cadastrado com sucesso");
-    alert("Cadastro enviado com sucesso!");
+    alert("usuário cadastrado com sucesso!");
     form.reset();
   } catch (error) {
     console.error("Falha no cadastro:", error);
